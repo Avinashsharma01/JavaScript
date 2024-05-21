@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "amin-qoutes": "^1.0.3",
+    "bootstrap": "^5.3.3",
+    "figlet": "^1.7.0",
+    "one-liner-joke": "^1.2.2"
+  }
+}

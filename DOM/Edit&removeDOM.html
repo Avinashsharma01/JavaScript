@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Edit and remove the DOM element.</title>
+  </head>
+  <body style="background-color: black; color: white">
+    <ul class="name">
+      <li>Avinash</li>
+    </ul>
+    <script>
+
+        //this is the general rule to write the code 
+        //in this method when we append the li in tha last then the traveserll process being 
+      function addname(lang) {
+        let li = document.createElement("li");
+        li.innerHTML = lang;
+        document.querySelector(".name").appendChild(li);
+      }
+      addname("Kumar");
+      addname("Sharma");
+      addname("Soumya");
+      addname("Sharma");
+
+
+      //now the some optimaze way to write code 
+      //but in this method the traversell process has not being 
+      function optiname(newlang){
+        let li=document.createElement("li")
+        li.appendChild(document.createTextNode(newlang))
+        document.querySelector(".name").appendChild(li)
+      }
+      optiname("HEllo Sir")
+    </script>
+  </body>
+</html>

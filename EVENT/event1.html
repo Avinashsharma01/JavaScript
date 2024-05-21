@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event part -1 </title>
+    <style>
+        body{
+            width: 100vw;
+            height: 100vh;
+           
+        }
+        .child{
+            width: 150px;
+            height: 150px;
+            margin-right: 10px;
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #red{
+            background-color: red;
+        }
+
+        #green{
+            background-color: green;
+        }
+        #blue{
+            background-color: blue;
+        }
+        #gray{
+            background-color: gray;
+        }
+        #yellow{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body style="background-color: black; color:white;">
+    <h1 style="text-align: center;">Event part-1 </h1>
+    <div class="container">
+        <div class="child" id="red"></div>
+        <div class="child" id="green"></div>
+        <div class="child" id="blue"></div>
+        <div class="child" id="gray"></div>
+        <div class="child" id="yellow"></div>
+    </div>
+    <script>
+        const child=document.querySelector(".child")
+        child.addEventListener("click", (e)=>{
+            //console.log(e)
+            //console.log("i'm Inner")
+        } )
+
+        const body=document.querySelector("body")
+        const cont=document.querySelector(".container")
+        cont.addEventListener("click", (Avinash)=>{
+            //console.log("i'm Outer")
+         //   body.style.backgroundColor=`${Avinash.target.id}`
+
+         console.log(Avinash.target.tagName)
+
+         if(Avinash.target.tagName=== "DIV"){
+             console.log(Avinash.target)
+             let removeit=Avinash.target
+             removeit.remove()
+         }
+         else{
+            alert("Wrong")
+         }
+
+        })
+
+
+    </script>
+</body>
+</html>

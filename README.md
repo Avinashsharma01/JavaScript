@@ -1,4 +1,20 @@
 #  here is all the important notes
+1. Hello, world! 
+2. Code structure
+3. The modern mode, "use strict"
+4. Variables
+5. Data types
+6. Interaction: alert, prompt, confirm
+
+
+
+
+
+
+
+
+
+
 
 ## JavaScript has 8 Datatypes
 1. String

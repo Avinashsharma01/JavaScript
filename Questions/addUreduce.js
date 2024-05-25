@@ -5,3 +5,4 @@ let addr= arr.reduce((pre, cur)=>{
 
 console.log(arr)
 console.log(addr)
+

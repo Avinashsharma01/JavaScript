@@ -73,3 +73,28 @@ The list of operators:
 5. LEFT SHIFT ( << )
 6. RIGHT SHIFT ( >> )
 7. ZERO-FILL RIGHT SHIFT ( >>> )
+
+
+
+
+
+# JavaScript DOM Part DOM DOM DOM DOM DOM DOM DOM DOM DOM
+1. document.getElementById
+2. document.getElementsByClassName
+3. document.getElementsByTagName
+4. document.getElementsByClassName
+5. document.querySelector
+6. document.querySelectorAll
+7. document.createElement
+8. .getAttribute("Name of attribute")
+9. .setAttribute("class", "New class name")
+
+
+## Insert  Element 
+1. document.createElement("Element name")
+    after create is we have to insert in in the DOm tree 
+2. Element name.append("create element variable name")
+    append is used to insert element in last
+3. Element name.append("create element variable name")
+    prePend in used to insert element at the begning of the element 
+4. 

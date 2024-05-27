@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javscript event-2 </title>
+    <style>
+        .maain{
+            width: 100vw;
+            display: flex;
+            justify-content: space-around;
+        }
+        .color{
+            width: 300px;
+            height: 300px;
+            background-color: gray;
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="maain">
+        <div class="color" onmouseover="Cchange()" onmouseout="out()" onclick="sty()" >I'm the bundle of events</div>
+        <div class="color color2"></div>
+    </div>
+    <button class="btn" onclick="Click()">click me</button>
+    <button class="dblbtn" ondblclick="Ondbl()"> double click me</button>
+    <script src="./event2.js">
+    </script>
+</body>
+</html>

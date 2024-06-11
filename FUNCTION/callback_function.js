@@ -1,5 +1,4 @@
 
-
 function fun1(){
     return console.log("HEllo Function 1")
 }

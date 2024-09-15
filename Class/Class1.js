@@ -18,7 +18,6 @@ maruti.stop()
 
 
 class Avinash{
-
     constructor(){
         console.log("this is constructor")
     }

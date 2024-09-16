@@ -232,7 +232,7 @@ body {
     /* border: 1px solid rgb(225, 169, 169); */
     position: absolute;
     border-radius: 29% 64% 21% 52% / 22% 47% 47% 50%;
-    background-image: url(img.png);
+    background-image: url("./vijay.png");
     background-repeat: no-repeat;
     background-size: cover;
 }

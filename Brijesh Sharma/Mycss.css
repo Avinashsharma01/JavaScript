@@ -1,0 +1,8 @@
+.location h1, .call h1 ,.mail h1 ,.github h1{
+    font-size: 20px !important;
+}
+
+.btnLink{
+    text-decoration: none;
+    color: white;
+}
